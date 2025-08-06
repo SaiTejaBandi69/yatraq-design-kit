@@ -119,7 +119,8 @@
 
   /* Typography */
   .text-title {
-    @apply text-title font-bold;
+    @apply font-bold;
+    color: hsl(var(--title));
   }
 
   .text-body {
