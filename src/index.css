@@ -124,7 +124,7 @@
   }
 
   .text-body {
-    @apply text-body;
+    color: hsl(var(--body));
   }
 
   /* Layout helpers */
