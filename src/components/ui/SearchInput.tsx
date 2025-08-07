@@ -27,7 +27,7 @@ export const SearchInput = ({
       ${focused ? 'ring-2 ring-primary ring-opacity-20' : ''}
     `}>
       <div className="relative flex items-center">
-        <Search className="absolute left-4 w-5 h-5 text-body" strokeWidth={1.5} />
+        <Search className="absolute left-4 w-5 h-5 text-muted-foreground" strokeWidth={1.5} />
         <input
           type="text"
           value={value}
